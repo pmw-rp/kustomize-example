@@ -1,1 +1,1 @@
-helm template redpanda redpanda/redpanda --post-renderer ./kustomize
+helm template redpanda redpanda/redpanda --set connectors.enabled=true --post-renderer ./kustomize
